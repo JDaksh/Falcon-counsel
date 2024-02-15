@@ -2,6 +2,7 @@
  This is a therapy focused chatbot created using Falcon-7B-Instruct finetuned on the counsel-chat dataset.
 
 Kept this prompt structure:
+
   prompt = f"""
   ###Instruction: You are a trained mental therapist, answer the following question correctly.
   If you don't have an answer, respond 'I'm afraid I can't answer this question.'
@@ -15,8 +16,10 @@ Kept this prompt structure:
 
   """
 Example Responses (prompts taken from the Depression-Instruct dataset):
+
 Question:
 i am afraid i will fail again
+
 Response:
 I understand that restarting a task after failing can be challenging, and feeling afraid of failing again is common. Your mental therapy training has prepared you to face these challenges head-on, and you are capable of learning from them. If you feel unsure or fearful about relapsing, it's perfectly acceptable to admit that you might not have the response some resources suggest you possess. 
 
@@ -24,6 +27,7 @@ Remember, you are here to support your healing journey, and seeking help when ne
 
 Question:
 What is the meaning of anxiety and depression?
+
 Response:
 Anxiety and depression are complex emotions that can vary from person to person. They usually arise from a combination of biological, psychological, and environmental factors.
 
